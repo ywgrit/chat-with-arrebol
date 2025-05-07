@@ -1,7 +1,7 @@
 [
     { "msgs": ["Hi，在干嘛呢？arrebol"], "msgInputSpeed": 80 },
     {
-        "msgs": ["2025年"],
+        "msgs": ["2025年5月"],
         "msgInputSpeed": 80,
         "triggerNextAction": {
             "type": "userInput",
