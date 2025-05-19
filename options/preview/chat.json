@@ -1,7 +1,7 @@
 [
-    { "msgs": ["Hi，在干嘛呢？arrebol"], "msgInputSpeed": 80 },
+    { "msgs": ["Hi，在干嘛呢？"], "msgInputSpeed": 80 },
     {
-        "msgs": ["2025年5月"],
+        "msgs": ["知道今天是什么日子吗？"],
         "msgInputSpeed": 80,
         "triggerNextAction": {
             "type": "userInput",
