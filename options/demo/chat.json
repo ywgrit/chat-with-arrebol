@@ -1,64 +1,51 @@
 [
-    { "msgs": ["普通消息，有输入动画"], "msgInputSpeed": 80 },
-    { "msgs": ["普通消息支持回退，比如下面这条"], "msgInputSpeed": 80 },
+    { "msgs": ["arrebol", "余娅丽", "余老师"], "msgInputSpeed": 120 },
+    { "msgs": ["是不是在想昨晚上我怎么没找你呢😸"], "msgInputSpeed": 80 },
+    { "msgs": ["我不小心的🤥"], "msgInputSpeed": 80 },
+    { "msgs": ["故意不小心的😼"], "msgInputSpeed": 80 },
+    
+    { "msgs": ["<img src='options/demo/imgs/'/>"] },
+    { "msgs": [""], "msgInputSpeed": 80 },
+    { "msgs": ["还记得我说过“现在我不会不问你就来找你的”吗？"], "msgInputSpeed": 80 },
+    { "msgs": ["不记得了是吧"], "msgInputSpeed": 80 },
+    { "msgs": ["<img src='options/demo/imgs/buxie-nobg.png'/>"] },
+    { "msgs": ["<img src='options/demo/imgs/xianzaibuhuituranzhao.png'/>"] },
+    { "msgs": ["那现在明白这句话的意思了吗？"], "msgInputSpeed": 80 },
+    { "msgs": ["我之前有提示过的😏"], "msgInputSpeed": 80 },
+    { "msgs": ["好吧，再提示你一下"], "msgInputSpeed": 80 },
+    { "msgs": [""], "msgInputSpeed": 80 },
+    { "msgs": ["<img src='options/demo/imgs/yanjin.png'/>"] },
+    { "msgs": ["知道那个“现在”的含义了吧"], "msgInputSpeed": 80 },
+
     {
-        "msgs": ["arrebol", "yyl", "yls"],
-        "msgInputSpeed": 160
-    },
-    { "msgs": ["普通消息输入快速"], "msgInputSpeed": 40 },
-    {
-        "msgs": ["支持切换输入角色"],
-        "msgInputSpeed": 80,
-        "author": "me"
-    },
-    {
-        "msgs": ["消息支持html元素，比如下面这个带颜色的文本"],
-        "msgInputSpeed": 80
-    },
-    {
-        "msgs": ["<span style=\"color: red;\">红色的span标签字体</span>"],
-        "msgInputSpeed": 80
-    },
-    {
-        "msgs": ["<a href=https://ywgrit.work/ask-arrebol/?name=arrebol>访问示例网站</a>"],
-        "msgInputSpeed": 80
-    },
-    {
-        "msgs": [
-            "消息支持触发用户输入交互，本条消息用户输入包括[好]才能进入下一步，多次将强行跳过"
-        ],
-        "msgInputSpeed": 80,
-        "triggerNextAction": {
-            "type": "userInput",
-            "options": {
-                "resolveKeyTexts": ["好"],
-                "rejectKeyTexts": [],
-                "rejectHitTexts": ["输入好，听不懂吗？？？", "触发强行跳过"]
-            }
-        }
-    },
-    { "msgs": ["消息支持输入图片"], "msgInputSpeed": 80 },
-    { "msgs": ["<img src='options/demo/imgs/test.png'/>"] },
-    { "msgs": ["消息支持输入VLog"], "msgInputSpeed": 80 },
-    { "msgs": ["看看我为你做的VLog"], "msgInputSpeed": 80 },
-    {
-        "msgs": ["<vlog src='options/demo/vlogs/test.mp4'/>"],
-        "triggerNextAction": { "type": "componentClose" }
-    },
-    { "msgs": ["消息支持输入信件"], "msgInputSpeed": 80 },
-    { "msgs": ["看看我想对你说的话"], "msgInputSpeed": 80 },
-    {
-        "msgs": ["<letter src='https://file.tangdouz.com/love/'/>"],
-        "triggerNextAction": { "type": "componentClose" }
-    },
-    { "msgs": ["接下来是一些通用测试"], "msgInputSpeed": 80 },
-    {
-        "msgs": ["有些心里话，你想听吗？"],
+        "msgs": ["你猜我现在在想什么？"],
         "msgInputSpeed": 40,
         "triggerNextAction": {
             "type": "userInput",
             "options": {
                 "resolveKeyTexts": [
+                    "arrebol"
+                ],
+                "rejectKeyTexts": ["不知道"],
+                "rejectHitTexts": [
+                    "都还猜不中嘛"
+                ]
+            }
+        }
+    },
+    
+    { "msgs": ["<img src='options/demo/imgs/duolaameng-aojiao.png'/>"] },
+
+    {
+        "msgs": ["有一些话想对你说，想听吗？"],
+        "msgInputSpeed": 40,
+        "triggerNextAction": {
+            "type": "userInput",
+            "options": {
+                "resolveKeyTexts": [
+                    "嗯",
+                    "嗯嗯",
+                    "好",
                     "好的",
                     "可以",
                     "同意",
@@ -69,42 +56,21 @@
                 ],
                 "rejectKeyTexts": ["不想"],
                 "rejectHitTexts": [
-                    "不听？信不信我分分钟出 bug 给你看？",
-                    "好吧，既然你实在不想听，那我就讲给你听吧～"
+                    "不想听呀？再给你次机会重新回答",
+                    "不行，我还是要讲"
                 ]
             }
         }
     },
-    { "msgs": ["心里话都在这封信里"], "msgInputSpeed": 80 },
+    { "msgs": ["进去看看呢"], "msgInputSpeed": 80 },
     {
         "msgs": ["<letter src='options/demo/letters/test.json'/>"],
         "triggerNextAction": { "type": "componentClose" }
     },
+    
+    { "msgs": ["那么，我就开始问了？"], "msgInputSpeed": 110 },
     {
-        "msgs": ["你猜我在想什么？"],
-        "msgInputSpeed": 80,
-        "triggerNextAction": {
-            "type": "userInput",
-            "options": {
-                "resolveKeyTexts": ["想我"],
-                "rejectKeyTexts": ["不知道"],
-                "rejectHitTexts": [
-                    "你猜错了～",
-                    ["给你提示一下～", "是个人~"],
-                    "这都猜不中？？？",
-                    ["好吧，看图吧。", "<img src='options/demo/imgs/test.png'>"]
-                ]
-            }
-        }
-    },
-    { "msgs": ["我是在想打游戏", "我是在想你呢"], "msgInputSpeed": 80 },
-    { "msgs": ["看看这个视频"], "msgInputSpeed": 80 },
-    {
-        "msgs": ["<vlog src='options/demo/vlogs/test.mp4'/>"],
-        "triggerNextAction": { "type": "componentClose" }
-    },
-    {
-        "msgs": ["测试结束，广告位招租"],
+        "msgs": ["<a href=https://ywgrit.work/ask-arrebol/?name=arrebol>点这里看看呢</a>"],
         "msgInputSpeed": 80
     }
 ]
