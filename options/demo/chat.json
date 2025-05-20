@@ -33,7 +33,7 @@
     },
     { "msgs": ["不告诉你了"], "msgInputSpeed": 80 },
     
-    { "msgs": ["<img src='options/demo/imgs/duolaameng.png'/>"] },
+    { "msgs": ["<img src='options/demo/imgs/duolaameng.jpg'/>"] },
 
     {
         "msgs": ["有一些话想对你说，想听吗？"],
