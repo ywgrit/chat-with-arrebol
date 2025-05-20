@@ -4,8 +4,6 @@
     { "msgs": ["我不小心的🤥"], "msgInputSpeed": 80 },
     { "msgs": ["故意不小心的😼"], "msgInputSpeed": 80 },
     
-    { "msgs": ["<img src='options/demo/imgs/'/>"] },
-    { "msgs": [""], "msgInputSpeed": 80 },
     { "msgs": ["还记得我说过“现在我不会不问你就来找你的”吗？"], "msgInputSpeed": 80 },
     { "msgs": ["不记得了是吧"], "msgInputSpeed": 80 },
     { "msgs": ["<img src='options/demo/imgs/buxie-nobg.png'/>"] },
@@ -33,8 +31,9 @@
             }
         }
     },
+    { "msgs": ["不告诉你了"], "msgInputSpeed": 80 },
     
-    { "msgs": ["<img src='options/demo/imgs/duolaameng-aojiao.png'/>"] },
+    { "msgs": ["<img src='options/demo/imgs/duolaameng.png'/>"] },
 
     {
         "msgs": ["有一些话想对你说，想听吗？"],
